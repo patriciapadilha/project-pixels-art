@@ -1,0 +1,44 @@
+* {
+    margin-top: 0px
+}
+
+/* Cada elemento da paleta de cores deverá ter uma borda preta, sólida e com 1 pixel de largura; */
+.color {
+    border: solid 1px black;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+#colorBlack {
+    background-color: black;
+    color: black;
+}
+
+#colorGreen {
+    background-color: green;
+    color: green;
+}
+
+#colorRed {
+    background-color: red;
+    color: red;
+}
+
+#colorBlue {
+    background-color: blue;
+    color: blue;
+}
+
+.row {
+    display: table-row;
+}
+
+.pixel {
+    border: solid 1px black;
+    display: table-cell;
+    width: 40px;
+    height: 40px;
+
+}
