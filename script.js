@@ -46,9 +46,24 @@ window.onload = function () {
         
     changeColor ()   
         
-    // function clean () {
+    function cleanBoard () {
 
-    // }
+        let clearButton = document.querySelector('#clear-board>button');
+        // console.log(clearButton);
+        clearButton.addEventListener('click' , function (){
+            let selectPixel = document.querySelectorAll('#pixel-board>.pixel');
+            for (let index = 0; index < selectPixel.length; index += 1) { 
+               selectPixel[index].addEventListener('click', function (event) {
+              
+                event.target.style.backgroundColor = 'white';  
+               })
+              
+            }
+        })
+
+    }
+
+    cleanBoard ()
         
         
     
