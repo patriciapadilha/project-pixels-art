@@ -26,9 +26,7 @@ function selectColor() {
     }
 }
               
-
-         
-            
+          
 function changeColor () {
                 
     let selectPixel = document.querySelectorAll('#pixel-board>.pixel');
@@ -63,9 +61,10 @@ function changeColor () {
 // }
 
 //limpa todo o Board
-function clearBoard(){
+function clearBoard () {
     let clear = document.getElementById("clear-board");
     clear.addEventListener('click', function () {
+        console.log('eventoClear');
         let pixel = document.getElementsByClassName('pixel');
         for (let index = 0; index < pixel.length; index += 1){
             pixel[index].style.backgroundColor = 'white';
