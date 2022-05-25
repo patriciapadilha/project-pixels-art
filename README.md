@@ -8,3 +8,5 @@
 
 ### Sobre o desenvolvimento:
 - Individual;
+
+<img  align="center" width="500px" alt="imagem da aplicação com o pixel bord" src="/img.png">
