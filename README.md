@@ -8,5 +8,7 @@
 
 ### Sobre o desenvolvimento:
 - Individual;
+[Deploy do projeto](https://project-pixels-art-tau.vercel.app/)
 
-<img  align="center" width="500px" alt="imagem da aplicação com o pixel bord" src="/img.png">
+<img width="500px" alt="imagem da aplicação com o pixel bord" src="img.png">
+
